@@ -1,3 +1,5 @@
+import { publicAsset } from "../utils/publicAsset";
+
 export type FlooringOption = {
   id: string;
   name: string;
@@ -19,47 +21,47 @@ export const flooringOptions: FlooringOption[] = [
     name: "Burmese Teak",
     title: "Burmese Teak Flooring",
     subtitle: "A statement beneath every step.",
-    swatch: "/images/hero-floors/swatch-burmese-teak.jpg",
-    scene: "/images/hero-floors/floor-burmese-teak.jpg",
+    swatch: publicAsset("/images/hero-floors/swatch-burmese-teak.jpg"),
+    scene: publicAsset("/images/hero-floors/floor-burmese-teak.jpg"),
   },
   {
     id: "kayu-kuku",
     name: "Kayu Kuku",
     title: "Kayu Kuku Flooring",
     subtitle: "A statement beneath every step.",
-    swatch: "/images/hero-floors/swatch-kayu-kuku.jpg",
-    scene: "/images/hero-floors/floor-kayu-kuku.jpg",
+    swatch: publicAsset("/images/hero-floors/swatch-kayu-kuku.jpg"),
+    scene: publicAsset("/images/hero-floors/floor-kayu-kuku.jpg"),
   },
   {
     id: "merbau",
     name: "Merbau",
     title: "Merbau Flooring",
     subtitle: "A statement beneath every step.",
-    swatch: "/images/hero-floors/swatch-merbau.jpg",
-    scene: "/images/hero-floors/floor-merbau.jpg",
+    swatch: publicAsset("/images/hero-floors/swatch-merbau.jpg"),
+    scene: publicAsset("/images/hero-floors/floor-merbau.jpg"),
   },
   {
     id: "oak-ash",
     name: "Oak Ash",
     title: "Oak Ash Flooring",
     subtitle: "A statement beneath every step.",
-    swatch: "/images/hero-floors/swatch-oak-ash.jpg",
-    scene: "/images/hero-floors/floor-oak-ash.jpg",
+    swatch: publicAsset("/images/hero-floors/swatch-oak-ash.jpg"),
+    scene: publicAsset("/images/hero-floors/floor-oak-ash.jpg"),
   },
   {
     id: "sand-oak",
     name: "Sand Oak",
     title: "Sand Oak Flooring",
     subtitle: "A statement beneath every step.",
-    swatch: "/images/hero-floors/swatch-sand-oak.jpg",
-    scene: "/images/hero-floors/floor-sand-oak.jpg",
+    swatch: publicAsset("/images/hero-floors/swatch-sand-oak.jpg"),
+    scene: publicAsset("/images/hero-floors/floor-sand-oak.jpg"),
   },
   {
     id: "teak-herringbone",
     name: "Teak Herringbone",
     title: "Teak Herringbone Flooring",
     subtitle: "A statement beneath every step.",
-    swatch: "/images/hero-floors/swatch-teak-herringbone.jpg",
-    scene: "/images/hero-floors/floor-teak-herringbone.jpg",
+    swatch: publicAsset("/images/hero-floors/swatch-teak-herringbone.jpg"),
+    scene: publicAsset("/images/hero-floors/floor-teak-herringbone.jpg"),
   },
 ];

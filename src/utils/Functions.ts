@@ -1,5 +1,4 @@
-import { BASE_NAME } from "../constants/api";
-
+import { publicAsset } from "./publicAsset";
 
 export const ImageUrl = (image: string) =>
-  `${BASE_NAME}/images/${image}`.replace("//", "/");
+  publicAsset(`/images/${image.replace(/^\//, "")}`);
